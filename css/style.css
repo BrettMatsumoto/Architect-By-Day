@@ -1,3 +1,30 @@
 body {
-    background-color:slategrey;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("http://sdginterior.design/wp-content/gallery/courtland/2224-courtland-dr-frisco-tx-High-Res-5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header {
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+#title {
+    margin-top: 0px;
+    padding-top: 1%;
+    color: white;
+    justify-content: flex-start;
+    size: 15%;
+}
+
+.headerLink {
+    color: white;
+    display: flex;
+    align-items: center;
+    size: 15%;
 }
