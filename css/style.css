@@ -1,6 +1,9 @@
 body {
     margin: 0px;
     padding: 0px;
+    background-image: url("http://sdginterior.design/wp-content/gallery/courtland/2224-courtland-dr-frisco-tx-High-Res-5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #header {
