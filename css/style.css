@@ -11,7 +11,10 @@ body {
     border-bottom-color: black;
     background-color: black;
     display: flex;
-    justify-content: space-around;
+    padding-left: 5%;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 #title {
@@ -25,6 +28,17 @@ body {
 .headerLink {
     color: white;
     display: flex;
-    align-items: center;
-    size: 15%;
+    flex-direction: column;
+    margin-left: 3%;
+    padding-left: 1%;
+    padding-top: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-bottom: 3%;
+    color: gray;
+    width: 15%;
+}
+
+#links a:hover {
+    color: lightsteelblue;
 }
